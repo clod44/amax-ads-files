@@ -24,7 +24,7 @@ jobs:
     - name: Install requirements
       run: |
         pip install s3cmd
-        sudo apt-get install -y libarchive-tools
+        sudo apt-get install -y libarchive-zip-perl
 
     - name: Move and zip
       run: |
@@ -47,7 +47,7 @@ jobs:
         zip -r ads.zip ads/   
 
     - name: Get CRC32 checksum of ads.zip
-      run: crc32 ads.zip > checksum.file
+      run: crc32 ads.zip | tr [:lower:] [:upper:] > checksum.file
 
     - name: Syncing data to remote s3
       run: |      
