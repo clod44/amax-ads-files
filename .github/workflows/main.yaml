@@ -1,0 +1,66 @@
+name: AMAX ADS S3 deployment
+
+on:
+  push:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+env:
+  BASE_PATH: /
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install requirements
+      run: |
+        pip install s3cmd
+        apt-get install -y libarchive-tools
+
+    - name: Move and zip
+      run: |
+        mkdir -p ads
+        mv jpn_mharuna ads/
+        mv jpn_tokyo_shutoko ads/
+        mv spa_barcelona_bowl_multiplayer ads/
+        mv spa_barcelona_gracia ads/
+        mv spa_barcelona_oval ads/
+        mv uk_brighton ads/
+        mv uk_london_hackney ads/
+        mv usa_amboy ads/
+        mv usa_la_downtown ads/
+        mv usa_la_downtown_multiplayer ads/
+        mv usa_la_longbeachdocks ads/
+        mv usa_la_river ads/
+        mv usa_ny_dumbo ads/
+        mv usa_sanfran_russianhill ads/
+        mv usa_sanfran_sausalito ads/
+        zip -r ads.zip ads/   
+
+    - name: Get CRC32 checksum of ads.zip
+      run: crc32 ads.zip > checksum.file
+
+    - name: Syncing data to remote s3
+      run: |      
+        s3cmd put --host=${{secrets.S3_HOSTNAME}} --host-bucket="%(bucket)s.${{secrets.S3_HOSTNAME}}" --acl-public ./ads.zip s3://${{ secrets.S3_BUCKET }}/ads.zip
+        s3cmd put --host=${{secrets.S3_HOSTNAME}} --host-bucket="%(bucket)s.${{secrets.S3_HOSTNAME}}" --acl-public ./checksum.file s3://${{ secrets.S3_BUCKET }}/checksum.file
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.KEY }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET }}
+
+    - name: Purge DO cache
+      run: |  
+        curl -X DELETE \
+          -H "Content-Type: application/json" \
+          -H "Authorization: Bearer ${{ secrets.DO_API_TOKEN }}" \
+          -d '{"files": ["checksum.file","ads.zip"]}' \
+          "https://api.digitalocean.com/v2/cdn/endpoints/4ead4af5-9068-4df2-886a-c79498b526f1cache"
