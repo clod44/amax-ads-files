@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
+    <title>Amax Ads Maker</title>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Amax Ads Maker</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://amax-emu.com" target="_blank">Amax</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://discord.com/invite/pbt6DzQPGY" target="_blank">Discord</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Amax-Emu/amax-ads-files" target="_blank">Github</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--MAIN-->
+    <main class="container my-3">
+
+        <div class="d-flex align-items-start">
+            <div class="w-50">
+                <div id="canvas-holder" class="bg-secondary col p-0 m-0 w-100 h-100" style="aspect-ratio: 4/3;">
+
+                </div>
+            </div>
+            <div class="w-50">
+                <ol>
+                    <li>
+                        <div class="d-flex mb-3 gap-3">
+                            <input class="form-control" type="file" id="imageFileInput">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Map</span>
+                            <select class="form-select" id="map-select">
+                                <option selected value="-1">No option</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Billboard</span>
+                            <select class="form-select" id="image-select">
+                                <option selected value="-1">No option</option>
+                            </select>
+                        </div>
+                    </li>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Data</span>
+                        <pre class="form-control mb-0" id="image-data"></pre>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Scale</span>
+                        <button class="btn btn-primary" type="button" id="scale-decrease-button">-</button>
+                        <input type="number" class="form-control text-center" placeholder="1" value="1" id="scale-value"
+                            step="0.1">
+                        <button class="btn btn-primary" type="button" id="scale-increase-button">+</button>
+                        <span class="input-group-text">Object-Fit</span>
+                        <select class="form-select" id="image-object-fit">
+                            <option selected value="fill">Fill</option>
+                            <option value="cover">Cover</option>
+                            <option value="contain">Contain</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">posX</span>
+                        <button class="btn btn-primary" type="button" id="posX-decrease-button">-</button>
+                        <input type="number" class="form-control text-center" placeholder="0" value="0" id="posX-value"
+                            step="0.1">
+                        <button class="btn btn-primary" type="button" id="posX-increase-button">+</button>
+                        <span class="input-group-text">posY</span>
+                        <button class="btn btn-primary" type="button" id="posY-decrease-button">-</button>
+                        <input type="number" class="form-control text-center" placeholder="0" value="0" id="posY-value"
+                            step="0.1">
+                        <button class="btn btn-primary" type="button" id="posY-increase-button">+</button>
+                    </div>
+                    <li>
+                        <button class="btn btn-primary w-100" id="export-button">Export</button>
+                    </li>
+                </ol>
+
+                <div class="accordion accordion-flush" id="accordionConfig">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Config
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionConfig">
+                            <div class="accordion-body">
+                                <pre id="config">config loading...</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="lib/jquery/jquery-3.7.1.min.js"></script>
+    <script src="lib/p5js/p5.min.js"></script>
+    <script src="ImageEditor.js"></script>
+    <script src="index.js"></script>
+    <script src="lib/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

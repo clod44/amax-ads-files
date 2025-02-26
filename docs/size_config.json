@@ -1,0 +1,785 @@
+{
+  "updated_at": "2025-02-25T23:41:05.314Z",
+  "maps": [
+    {
+      "name": "jpn_mharuna",
+      "images": [
+        {
+          "name": "advert1.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert6.png",
+          "width": 511,
+          "height": 253
+        },
+        {
+          "name": "advert7.png",
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "jpn_tokyo_shutoko",
+      "images": [
+        {
+          "name": "advert0.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert01.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert02.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert03.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert04.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert05.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert06.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert1.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert10.png",
+          "width": 256,
+          "height": 512
+        },
+        {
+          "name": "advert11.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert6.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert7.png",
+          "width": 256,
+          "height": 512
+        },
+        {
+          "name": "advert8.png",
+          "width": 256,
+          "height": 512
+        },
+        {
+          "name": "advert9.png",
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "spa_barcelona_bowl_multiplayer",
+      "images": [
+        {
+          "name": "advert1.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "spa_barcelona_gracia",
+      "images": [
+        {
+          "name": "advert0.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert1.png",
+          "width": 256,
+          "height": 512
+        },
+        {
+          "name": "advert2.png",
+          "width": 256,
+          "height": 512
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert6.png",
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "spa_barcelona_oval",
+      "images": [
+        {
+          "name": "advert1.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert10.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert6.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert7.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert8.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert9.png",
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "uk_brighton",
+      "images": [
+        {
+          "name": "advert1.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 256,
+          "height": 512
+        },
+        {
+          "name": "advert4.png",
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "uk_london_hackney",
+      "images": [
+        {
+          "name": "advert0.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert1.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert10.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert11.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert6.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert7.png",
+          "width": 256,
+          "height": 512
+        },
+        {
+          "name": "advert8.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert9.png",
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "usa_amboy",
+      "images": [
+        {
+          "name": "advert0.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert1.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "usa_la_downtown",
+      "images": [
+        {
+          "name": "advert1.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert10.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert11.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert12.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert13.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert14.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert6.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert7.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert8.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert9.png",
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "usa_la_downtown_multiplayer",
+      "images": [
+        {
+          "name": "advert0.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert1.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "usa_la_longbeachdocks",
+      "images": [
+        {
+          "name": "advert0.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert1.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert6.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert7.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert8.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert9.png",
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "usa_la_river",
+      "images": [
+        {
+          "name": "advert0.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert1.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert6.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert7.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert8.png",
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "usa_ny_dumbo",
+      "images": [
+        {
+          "name": "advert0.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert1.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert10.png",
+          "width": 256,
+          "height": 512
+        },
+        {
+          "name": "advert11.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert12.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert13.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert14.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "name": "advert15.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert16.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert6.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert7.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert8.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert9.png",
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "usa_sanfran_russianhill",
+      "images": [
+        {
+          "name": "advert0.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert1.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "name": "usa_sanfran_sausalito",
+      "images": [
+        {
+          "name": "advert1.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert10.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert11.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert2.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert3.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert4.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert5.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert6.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert7.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert8.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "advert9.png",
+          "width": 512,
+          "height": 256
+        }
+      ]
+    }
+  ]
+}
