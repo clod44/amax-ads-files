@@ -52,7 +52,6 @@ $("#imageFileInput").on("change", function () {
 function draw() {
     const bg = random(50)
     background(0);
-    //renderScreenSaver();
     renderImage();
     image(baseCanvas, 0, 0, width, height)
 }
@@ -119,16 +118,6 @@ $("#export-button").on("click", function () {
     saveCanvas(baseCanvas, fileName || 'nameNotFound.png');
 });
 
-
-
-function renderScreenSaver() {
-    baseCanvas.stroke(random(255))
-    baseCanvas.background(0, 10)
-    baseCanvas.ellipse(
-        random(0, baseCanvas.width), random(0, baseCanvas.height),
-        random(0, baseCanvas.width)
-    );
-}
 
 function resizeCanvasToDiv() {
     resizeCanvas(canvasHolder.clientWidth, canvasHolder.clientHeight);
